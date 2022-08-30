@@ -28,4 +28,4 @@ mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnified
 /* Ketma-ketlik muhim yuqoridagi configlar va pastdagi routelar */
 app.use('/posts', postsRouter)
 app.use('/user', userRouter)
-app.use('/', (req, res) => res.json({ message: 'Bismillah, Memories API' }))
+app.use('/', (req, res) => res.status(200).json({ message: 'Bismillah, Auth-Memories API' }))

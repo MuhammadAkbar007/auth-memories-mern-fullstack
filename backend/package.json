@@ -4,7 +4,7 @@
   "description": "mern-memories-project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node ."
   },
   "author": "Akbarjon Ahmadjonov",
   "license": "MIT",
